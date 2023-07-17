@@ -118,7 +118,7 @@ distribution.
   - “Bayesian Inference for Logistic Models Using Pólya–Gamma Latent
     Variables” by Nicholas G. Polson, James G. Scott, and Jesse
     Windle (2013)
-    [doi:10.1080/01621459.2013.829001](https://www.tandfonline.com/doi/full/10.1080/01621459.2013.829001).
+    [doi:10.1080/01621459.2013.829001](https://doi.org/10.1080/01621459.2013.829001).
     Paper that invented the Polya-Gamma
   - “Sampling Polya-Gamma random variates: alternate and approximate
     techniques” by Jesse Windle, Nicholas G. Polson, and James G.
