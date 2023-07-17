@@ -1,0 +1,8 @@
+The Polya-Gamma Distribution samplers were extracted from BayesLogit R package
+with the following author and copyright information:
+
+Copyright: 2012-2019 Nicholas Polson, James Scott, Jesse Windle
+
+The pg package provides a refactorization of the algorithms to be self-contained
+in a header-only library with additional C++ accessors. The refactorization
+was done by James Joseph Balamuta.
