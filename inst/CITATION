@@ -1,7 +1,7 @@
 citHeader("To cite `pg` in publications please use use:")
 
 bibentry(
-  entry    = "PhdThesis",
+  bibtype    = "PhdThesis",
   title    = "Bayesian estimation of restricted latent class models: Extending priors, link functions, and structural models",
   author   = "James Joseph Balamuta",
   school  = "University of Illinois Urbana-Champaign",
@@ -11,7 +11,7 @@ bibentry(
 )
 
 bibentry(
-  entry = "Unpublished",
+  bibtype = "Unpublished",
   title  = "Bayesian inference for logistic models using Polya-Gamma latent variables",
   author = "Nicholas G. Polson, James G. Scott, and Jesse Windle",
   year   = 2013,
