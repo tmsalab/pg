@@ -13,6 +13,8 @@ Authors@R:
 Description: Provides access to a high performant random distribution
     sampler for the Polya-Gamma Distribution using either C++ headers for 
     'Rcpp' or 'RcppArmadillo' and 'R'.
+URL: https://tmsalab.github.io/pg/, https://github.com/tmsalab/pg
+BugReports: https://github.com/tmsalab/pg/issues
 License: GPL (>= 3)
 LinkingTo: 
     Rcpp,
