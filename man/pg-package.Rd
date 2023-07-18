@@ -8,6 +8,15 @@
 \description{
 Provides access to a high performant random distribution sampler for the Polya-Gamma Distribution using either C++ headers for 'Rcpp' or 'RcppArmadillo' and 'R'.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://tmsalab.github.io/pg/}
+  \item \url{https://github.com/tmsalab/pg}
+  \item Report bugs at \url{https://github.com/tmsalab/pg/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: James Balamuta \email{balamut2@illinois.edu} [copyright holder]
 
