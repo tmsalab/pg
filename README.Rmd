@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 # pg
 
 <!-- badges: start -->
-[![R-CMD-check](https://github.com/tmsalab/rcpppg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tmsalab/rcpppg/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/tmsalab/pg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/tmsalab/pg/actions/workflows/R-CMD-check.yaml)
 [![Package-License](http://img.shields.io/badge/license-GPL%20(%3E=3)-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
 <!-- badges: end -->
 
