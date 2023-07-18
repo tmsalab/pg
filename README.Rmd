@@ -20,7 +20,7 @@ knitr::opts_chunk$set(
 [![Package-License](http://img.shields.io/badge/license-GPL%20(%3E=3)-brightgreen.svg?style=flat)](http://www.gnu.org/licenses/gpl-3.0.html)
 <!-- badges: end -->
 
-The goal of pg is to provide both _R_ and _C++_ header access to the Polya-Gamma
+The goal of pg is to provide both _R_ and _C++_ header access to the Pólya-Gamma
 distribution sampling routine.
 
 ## Installation
@@ -35,7 +35,7 @@ devtools::install_github("tmsalab/pg")
 
 ## Usage
 
-Let `X` be a Polya-Gamma Distribution denoted by `PG(h, z)`, where `h` is the 
+Let `X` be a Pólya-Gamma Distribution denoted by `PG(h, z)`, where `h` is the 
 "shape" parameter and `z` is the "scale" parameter. Presently, the following 
 sampling cases are enabled:
 
@@ -118,16 +118,16 @@ pg::rpg_vector(n, h, z)
 
 ## See also
 
-The following are useful resources regarding the Polya-Gamma distribution.
+The following are useful resources regarding the Pólya-Gamma distribution.
 
 - Papers
     - "Bayesian Inference for Logistic Models Using Pólya–Gamma Latent Variables" 
       by Nicholas G. Polson, James G. Scott, and Jesse Windle (2013)
-      [doi:10.1080/01621459.2013.829001](https://doi.org/10.1080/01621459.2013.829001). Paper that invented the Polya-Gamma
-    - "Sampling Polya-Gamma random variates: alternate and approximate techniques"
+      [doi:10.1080/01621459.2013.829001](https://doi.org/10.1080/01621459.2013.829001). Paper that invented the Pólya-Gamma
+    - "Sampling Pólya-Gamma random variates: alternate and approximate techniques"
       by Jesse Windle, Nicholas G. Polson, and James G. Scott (2014)
       <https://arxiv.org/abs/1405.0506>. Provides an efficiency overview of the
-      different sampling approaches to sampling from a Polya-Gamma distribution.
+      different sampling approaches to sampling from a Pólya-Gamma distribution.
 - R Implementations:
    - [`BayesLogit`](https://cran.r-project.org/package=BayesLogit) _R_ package by
       Nicholas G. Polson, James G. Scott, and Jesse Windle. Provides the
@@ -142,7 +142,7 @@ The following are useful resources regarding the Polya-Gamma distribution.
 - Support in other languages:
     - `Python` has the [`pypolyagamma`](https://github.com/slinderman/pypolyagamma)
       package by Scott Linderman.
-    - `Stan` [lacks an implementation](https://discourse.mc-stan.org/t/sampling-from-a-polya-gamma-distribution/8067) for the Polya-Gamma distribution since it relies on joint proposals 
+    - `Stan` [lacks an implementation](https://discourse.mc-stan.org/t/sampling-from-a-polya-gamma-distribution/8067) for the Pólya-Gamma distribution since it relies on joint proposals 
     rather than full conditionals.
 
 ## Author
