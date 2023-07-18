@@ -35,7 +35,7 @@ inline T rpg_gamma(const T& shape_, const T& scale_, int trunc) {
   // Initialize a similar result object
   T result(n);
 
-  for(int i=0; i < n; ++i){
+  for(unsigned int i = 0; i < n; ++i){
 
 #ifdef USE_R
     if (i % 1000 == 0) R_CheckUserInterrupt();
