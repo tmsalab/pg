@@ -113,19 +113,19 @@ the vector sampler.</p></dd>
 <span class="r-in"><span><span class="co">## Sample only one value  ----</span></span></span>
 <span class="r-in"><span><span class="va">single_value</span> <span class="op">=</span> <span class="fu">rpg_scalar</span><span class="op">(</span><span class="va">h</span>, <span class="va">z</span><span class="op">)</span></span></span>
 <span class="r-in"><span><span class="va">single_value</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.2108052</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1] 0.04251877</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co">## Attempt distribution recovery  ----</span></span></span>
 <span class="r-in"><span><span class="va">vector_of_pg_samples</span> <span class="op">=</span> <span class="fu">rpg_vector</span><span class="op">(</span><span class="fl">1e6</span>, <span class="va">h</span>, <span class="va">z</span><span class="op">)</span></span></span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">vector_of_pg_samples</span><span class="op">)</span></span></span>
-<span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 0.36914856</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 0.50851435</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 0.02517433</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 0.66972866</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 0.47893933</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 0.69315052</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span>           [,1]</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 0.1743192</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 0.3864291</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [3,] 0.1649605</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [4,] 0.1177458</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [5,] 0.1862083</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [6,] 0.2893556</span>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/length.html" class="external-link">length</a></span><span class="op">(</span><span class="va">vector_of_pg_samples</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span> [1] 1000000</span>
 <span class="r-in"><span></span></span>
@@ -143,8 +143,8 @@ the vector sampler.</p></dd>
 <span class="r-in"><span><span class="fu"><a href="https://rdrr.io/r/base/cbind.html" class="external-link">rbind</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">empirical_mean</span>, <span class="va">theoretical_mean</span><span class="op">)</span>,</span></span>
 <span class="r-in"><span>      <span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="va">empirical_var</span>, <span class="va">theoretical_var</span><span class="op">)</span><span class="op">)</span></span></span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>            [,1]      [,2]</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 0.24489004 0.2449187</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 0.03967359 0.0396598</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [1,] 0.24528862 0.2449187</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> [2,] 0.03967028 0.0396598</span>
 <span class="r-in"><span></span></span>
 <span class="r-in"><span><span class="co"># Varying distribution parameters ----</span></span></span>
 <span class="r-in"><span></span></span>
