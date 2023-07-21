@@ -1,5 +1,5 @@
 Package: pg
-Title: Pólya-Gamma Distribution Sampler
+Title: Polya Gamma Distribution Sampler
 Version: 0.2.4
 Authors@R: 
     c(
@@ -10,9 +10,11 @@ Authors@R:
         email = "balamut2@illinois.edu"
       )
     )
-Description: Provides access to a high performant random distribution
-    sampler for the Pólya-Gamma Distribution using either 'C++' headers for 
-    'Rcpp' or 'RcppArmadillo' and 'R'.
+Description: Provides access to a series of highly performant random distribution
+    samplers for the Polya Gamma Distribution as described by
+    Polson, Scott, and Windle (2013) <arXiv:1205.0310> using either 'C++' headers 
+    for 'Rcpp' or 'RcppArmadillo' and 'R'. The 'C++' header approach was developed
+    to enable computations in Balamuta (2021) <https://www.ideals.illinois.edu/items/121209>.
 URL: https://tmsalab.github.io/pg/, https://github.com/tmsalab/pg
 BugReports: https://github.com/tmsalab/pg/issues
 License: GPL (>= 3)

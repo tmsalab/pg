@@ -1,8 +1,8 @@
 #include "pg.h"
 
-//' Sample from the Pólya-Gamma distribution PG(h, z)
+//' Sample from the Polya Gamma distribution PG(h, z)
 //'
-//' Chooses the most efficient implemented method to sample from a Pólya-Gamma
+//' Chooses the most efficient implemented method to sample from a Polya Gamma
 //' distribution. Details on algorithm selection presented below.
 //'
 //' @param n     The number of samples to taken from a PG(h, z). Used only by

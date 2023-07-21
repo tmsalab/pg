@@ -1,12 +1,12 @@
-#' Theoretical Polya-Gamma Distribution's Mean and Variance
+#' Theoretical Polya Gamma Distribution's Mean and Variance
 #'
-#' Compute the theoretical mean and variance for a Polya-Gamma variable.
+#' Compute the theoretical mean and variance for a Polya Gamma variable.
 #'
 #' @param h A single `integer` value corresponding to the "shape" parameter.
 #' @param z A single `numeric` value corresponding to the "scale" parameter.
 #'
 #' @return
-#' Either the theoretical mean or theoretical variance for a Polya-Gamma
+#' Either the theoretical mean or theoretical variance for a Polya Gamma
 #' distribution.
 #'
 #' @export

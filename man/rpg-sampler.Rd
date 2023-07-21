@@ -8,7 +8,7 @@
 \alias{rpg_devroye}
 \alias{rpg_sp}
 \alias{rpg_normal}
-\title{Sample from the Pólya-Gamma distribution PG(h, z)}
+\title{Sample from the Polya Gamma distribution PG(h, z)}
 \usage{
 rpg_scalar(h, z)
 
@@ -38,7 +38,7 @@ the vector sampler.}
 A single \code{numeric} value.
 }
 \description{
-Chooses the most efficient implemented method to sample from a Pólya-Gamma
+Chooses the most efficient implemented method to sample from a Polya Gamma
 distribution. Details on algorithm selection presented below.
 }
 \details{

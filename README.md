@@ -10,7 +10,7 @@
 <!-- badges: end -->
 
 The goal of pg is to provide both *R* and *C++* header access to the
-Pólya-Gamma distribution sampling routine.
+Polya Gamma distribution sampling routine.
 
 ## Installation
 
@@ -24,7 +24,7 @@ devtools::install_github("tmsalab/pg")
 
 ## Usage
 
-Let `X` be a Pólya-Gamma Distribution denoted by `PG(h, z)`, where `h`
+Let `X` be a Polya Gamma Distribution denoted by `PG(h, z)`, where `h`
 is the “shape” parameter and `z` is the “scale” parameter. Presently,
 the following sampling cases are enabled:
 
@@ -111,7 +111,7 @@ pg::rpg_vector(n, h, z)
 
 ## See also
 
-The following are useful resources regarding the Pólya-Gamma
+The following are useful resources regarding the Polya Gamma
 distribution.
 
 - Papers
@@ -119,12 +119,12 @@ distribution.
     Variables” by Nicholas G. Polson, James G. Scott, and Jesse
     Windle (2013)
     [doi:10.1080/01621459.2013.829001](https://doi.org/10.1080/01621459.2013.829001).
-    Paper that invented the Pólya-Gamma
-  - “Sampling Pólya-Gamma random variates: alternate and approximate
+    Paper that invented the Polya Gamma
+  - “Sampling Polya Gamma random variates: alternate and approximate
     techniques” by Jesse Windle, Nicholas G. Polson, and James G.
     Scott (2014) <https://arxiv.org/abs/1405.0506>. Provides an
     efficiency overview of the different sampling approaches to sampling
-    from a Pólya-Gamma distribution.
+    from a Polya Gamma distribution.
 - R Implementations:
   - [`BayesLogit`](https://cran.r-project.org/package=BayesLogit) *R*
     package by Nicholas G. Polson, James G. Scott, and Jesse Windle.
@@ -143,7 +143,7 @@ distribution.
     by Scott Linderman.
   - `Stan` [lacks an
     implementation](https://discourse.mc-stan.org/t/sampling-from-a-polya-gamma-distribution/8067)
-    for the Pólya-Gamma distribution since it relies on joint proposals
+    for the Polya Gamma distribution since it relies on joint proposals
     rather than full conditionals.
 
 ## Author

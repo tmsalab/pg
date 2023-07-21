@@ -3,7 +3,7 @@
 \name{pg_mean}
 \alias{pg_mean}
 \alias{pg_var}
-\title{Theoretical Polya-Gamma Distribution's Mean and Variance}
+\title{Theoretical Polya Gamma Distribution's Mean and Variance}
 \usage{
 pg_mean(h, z)
 
@@ -15,11 +15,11 @@ pg_var(h, z)
 \item{z}{A single \code{numeric} value corresponding to the "scale" parameter.}
 }
 \value{
-Either the theoretical mean or theoretical variance for a Polya-Gamma
+Either the theoretical mean or theoretical variance for a Polya Gamma
 distribution.
 }
 \description{
-Compute the theoretical mean and variance for a Polya-Gamma variable.
+Compute the theoretical mean and variance for a Polya Gamma variable.
 }
 \examples{
 # Fixed parameter distribution simulation ----

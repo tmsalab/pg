@@ -4,9 +4,9 @@
 \name{pg-package}
 \alias{pg}
 \alias{pg-package}
-\title{pg: Pólya-Gamma Distribution Sampler}
+\title{pg: Polya Gamma Distribution Sampler}
 \description{
-Provides access to a high performant random distribution sampler for the Pólya-Gamma Distribution using either 'C++' headers for 'Rcpp' or 'RcppArmadillo' and 'R'.
+Provides access to a series of highly performant random distribution samplers for the Polya Gamma Distribution as described by Polson, Scott, and Windle (2013) \href{https://arxiv.org/abs/1205.0310}{arXiv:1205.0310} using either 'C++' headers for 'Rcpp' or 'RcppArmadillo' and 'R'. The 'C++' header approach was developed to enable computations in Balamuta (2021) \url{https://www.ideals.illinois.edu/items/121209}.
 }
 \seealso{
 Useful links:
