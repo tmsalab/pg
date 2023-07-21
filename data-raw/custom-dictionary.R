@@ -37,7 +37,8 @@ other = c(
   "Polya",
   "Gamma",
   "performant",
-  "Polson"
+  "Polson",
+  "Windle"
 )
 
 custom_words = c(author, other)
