@@ -1,4 +1,8 @@
 url: https://tmsalab.github.io/pg/
 template:
   bootstrap: 5
+  opengraph:
+    image:
+      src: man/figures/pg-logo-static-light.svg
+      alt: The pg hex logo, a plate-notation graph whose ω node is drawn as the Pólya-Gamma density PG(1, ψ).
 
