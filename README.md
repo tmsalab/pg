@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pg
+# pg <a href="https://tmsalab.github.io/pg/"><picture><source media="(prefers-color-scheme: dark)" srcset="man/figures/pg-logo-animated-dark.svg"><img src="man/figures/pg-logo-animated-light.svg" width="150" align="right" alt="A hexagonal logo for pg: in plate notation, an open ring β wires into a solid plate to a double ring ψ, which sends one arrow to a filled square holding 1, the observed response, and one down to ω, drawn as the orange Pólya-Gamma density PG(1, ψ), with pg cut out of the plate."/></picture></a>
 
 <!-- badges: start -->
 
